@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 //Задание 1. Случайная матрица
 namespace Task1
@@ -30,7 +26,7 @@ namespace Task1
                 for (int j = 0; j < col; j++)
                 {
                     Console.Write($"{matr[i, j],3} ");
-                    sum += matr[i,j];
+                    sum += matr[i, j];
                 }
                 Console.WriteLine();
             }
